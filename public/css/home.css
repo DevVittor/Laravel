@@ -1,0 +1,43 @@
+.container-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0;
+    width: 100%;
+}
+.container-search h2 {
+    font-weight: 700;
+    font-size: 32px;
+}
+.container-search input[type="text"] {
+    height: 40px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    font-weight: 500;
+}
+.container-search input[type="submit"] {
+    height: 40px;
+    padding: 5px 25px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+}
+.card {
+    height: 400px;
+    width: 250px;
+    border-radius: 5px;
+}
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}

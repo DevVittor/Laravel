@@ -1,0 +1,56 @@
+header {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+.container-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 120px;
+    min-height: 8vh;
+    height: auto;
+    max-height: 10vh;
+    border-bottom: 2px solid #ddd;
+    background: #fff;
+}
+.logo h1 {
+    color: #000;
+    font-weight: 700;
+    font-size: 44px;
+    text-transform: uppercase;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.list-menu ul {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.list-menu a {
+    color: #000;
+    font-weight: 500;
+    font-size: 17px;
+}
+.account a {
+    background-color: #fff;
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 3px;
+    border: 1px solid #000;
+    transition: linear 0.2s;
+}
+.account a:hover {
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+}

@@ -1,0 +1,15 @@
+.show {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 87vh;
+}
+.container-evento {
+    display: inline-flex;
+    gap: 30px;
+}
+.box-card img {
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
