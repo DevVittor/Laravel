@@ -27,6 +27,7 @@
         </div>
         @yield('content')
     </main>
+    @include('cookie')
     @include('footer')
 
 </body>

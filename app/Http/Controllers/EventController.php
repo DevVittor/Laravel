@@ -59,4 +59,11 @@ class EventController extends Controller
         $event = Event::findOrFail($id);
         return view('events.show', ['event' => $event]);
     }
+
+    public function showPolicy()
+    {
+        $policy = "Conteúdo da política"; // Substitua essa linha pelo conteúdo real da sua política
+
+        return view('policy', compact('policy'));
+    }
 }
